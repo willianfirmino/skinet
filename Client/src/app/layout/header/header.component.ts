@@ -11,9 +11,9 @@ import {MatIcon} from '@angular/material/icon';
     MatIcon,
     MatButton
   ],
-  templateUrl: './header.html',
-  styleUrl: './header.scss'
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss'
 })
-export class Header {
+export class HeaderComponent {
 
 }
