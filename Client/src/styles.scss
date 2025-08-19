@@ -10,8 +10,14 @@
     background-color: blue,
   ));
 
-  body {
-    background: var(--mat-sys-surface);
-    color: var(--mat-sys-on-surface);
-  }
+  //body {
+  //  background: var(--mat-sys-surface);
+  //  color: var(--mat-sys-on-surface);
+  //}
+
 }
+
+.match-input-height {
+  height: var(--mat-form-field-container-height) !important;
+}
+
