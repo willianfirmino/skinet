@@ -26,6 +26,7 @@ import {FormsModule} from '@angular/forms';
     MatPaginator,
     FormsModule,
     MatIconButton,
+    FormsModule
 
   ],
   templateUrl: './shop.component.html',
@@ -84,6 +85,7 @@ export class ShopComponent implements OnInit {
       error: error => console.log(error)
     })
   }
+
 
   onSearchChange() {
     this.shopParams.pageNumber = 1;

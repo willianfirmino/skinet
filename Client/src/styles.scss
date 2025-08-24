@@ -1,6 +1,5 @@
 @use '@angular/material' as mat;
 
-// Customize the entire app. Change :root to your selector if you want to scope the styles.
 :root {
   @include mat.button-overrides((
     filled-container-shape: '6px',
@@ -10,10 +9,6 @@
     background-color: blue,
   ));
 
-  //body {
-  //  background: var(--mat-sys-surface);
-  //  color: var(--mat-sys-on-surface);
-  //}
 
 }
 
@@ -21,3 +16,6 @@
   height: var(--mat-form-field-container-height) !important;
 }
 
+.mdc-notched-outline__notch {
+  border-right-style: none !important;
+}
